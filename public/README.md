@@ -1,0 +1,1 @@
+En esta carpeta voy a tener todos los archivos estáticos que necesito para el desarrollo de la página. Entiendase por archivo estático a imágenes, videos, audios, etc.
