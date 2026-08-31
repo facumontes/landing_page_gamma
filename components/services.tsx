@@ -1,5 +1,9 @@
 export default function Services() {
     return (
-        <section id="services"></section>
+        <div className="border-t border-slate-200">
+            <section id="services">
+                
+            </section>
+        </div>
     )
 }

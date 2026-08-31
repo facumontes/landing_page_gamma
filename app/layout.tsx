@@ -12,11 +12,16 @@ export const metadata: Metadata = {
 export default function RootLayout({ children }: LayoutProps<"/">) {
   return (
     <html>
-      <body className={`${montserrat.className} antialiased bg-gamma-bg`}>
+      <body className={`${montserrat.className} antialiased bg-[#CDD5EA]`}>
+        <div className="flex flex-col min-h-screen">
         <Header />
         {children}
         <Footer />
+        </div>
       </body>
     </html>
   );
 }
+
+
+// para texto: 233052 - para fondo header: ADB9DC - para fondo página: CDD5EA
