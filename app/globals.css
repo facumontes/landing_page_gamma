@@ -2,8 +2,26 @@
 
 @theme inline {
   --color-gamma: #233052;
+  --color-gamma-soft: #adb9dc;
+  --color-gamma-bg: #cdd5ea;
+  --color-gamma-light: #e6eaf5;
 }
 
 html {
   scroll-behavior: smooth;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+}
+
+section[id] {
+  scroll-margin-top: 5rem;
+}
+
+:focus-visible {
+  outline: 2px solid #233052;
+  outline-offset: 3px;
 }
